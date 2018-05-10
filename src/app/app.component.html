@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <div>
+        <h1>Ingrese Password</h1>
+        <h2>El Password es Todo1</h2>
+        <h2>Realizado por Rogers Paredes</h2>
+        <input (change)="getPass($event.target.value)" type="text" />
+        <button (click)="login()">login</button> |
+        <button (click)="logout()">logout</button>
+    </div>
+    <router-outlet></router-outlet>
+</div>
